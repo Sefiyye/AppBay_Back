@@ -1,0 +1,19 @@
+﻿@model HomeVM
+<footer>
+    <section id="footer">
+        <div class="container">
+            <div class="title">
+                <span>@Model.Settings.FooterLocation <a href="">@Model.Settings.LinkLocation</a></span>
+            </div>
+            <div class="social-media">
+                <ul>
+                    @foreach (var item in Model.SocialMedias)
+                    {
+                        <li><a href=""><i class="@item.Icon"></i></a></li>
+                    }
+                </ul>
+            </div>
+        </div>
+
+    </section>
+</footer>
