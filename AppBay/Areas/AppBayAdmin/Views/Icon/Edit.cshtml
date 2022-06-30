@@ -1,0 +1,22 @@
+﻿@model Icon
+<div>
+    <form method="post" enctype="multipart/form-data">
+        <div>
+            <label class="mt-2">ImageIcon</label> <br />
+            <input class="form-control" asp-for="IconImage"/> <br />
+            <span asp-validation-for="IconImage" class="text-danger"></span>
+        </div>
+        <div>
+            <label class="mt-2">Title</label><br />
+            <input class="form-control" asp-for="Title" /><br />
+            <span asp-validation-for="Title" class="text-danger"></span>
+        </div>  
+        <div>
+            <label class="mt-2">Subtitle</label>
+            <input class="form-control" asp-for="Subtitle" />
+        </div>
+    </form>
+    <div>
+        <button type="submit" class="btn btn-success">Edit</button>
+    </div>
+</div>

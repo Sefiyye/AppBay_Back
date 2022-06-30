@@ -46,6 +46,11 @@ namespace AppBay
 
             app.UseEndpoints(endpoints =>
             {
+                    endpoints.MapControllerRoute(
+                      name: "areas",
+                      pattern: "{area:exists}/{controller=dashboard}/{action=index}/{id?}"
+                    );
+
                 endpoints.MapControllerRoute(
                     name:"default",
                     pattern: "{controller=home}/{action=index}/{id?}"

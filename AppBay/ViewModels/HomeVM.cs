@@ -10,5 +10,6 @@ namespace AppBay.ViewModels
     {
         public Setting Settings { get; set; }
         public List<SocialMedia> SocialMedias { get; set; }
+        public List<Icon> Icon { get; set; }
     }
 }

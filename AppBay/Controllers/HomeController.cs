@@ -24,6 +24,7 @@ namespace AppBay.Controllers
             {
                 Settings = await _context.Settings.FirstOrDefaultAsync(),
                 SocialMedias = await _context.SocialMedias.ToListAsync(),
+                Icon = await _context.Icons.ToListAsync(),
             };
             return View(model);
         }

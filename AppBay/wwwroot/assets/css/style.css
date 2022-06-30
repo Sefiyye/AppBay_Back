@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#navbar .container .row .col-lg-6 .logo ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#navbar .container .row .col-lg-6 .logo ul li {
+  margin: 10px;
+  list-style: none;
+}
+
+#navbar .container .row .col-lg-6 .logo ul li i {
+  color: white;
+  background-color: #1c7eda;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  padding: 15px;
+  font-size: 20px;
+}
+
+#navbar .container .row .col-lg-6 .logo ul li h1 .blue {
+  color: #1c7eda;
+}
+
+#navbar .container .row .col-lg-6 .logo ul li h1 .gray {
+  color: gray;
+}
+
+#navbar .container .row .col-lg-6 .nav ul {
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#navbar .container .row .col-lg-6 .nav ul li {
+  list-style: none;
+}
+
+#navbar .container .row .col-lg-6 .nav ul li a {
+  color: gray;
+  font-size: 20px;
+  margin: 15px;
+  text-decoration: none;
+}
+
+#navbar .container .row .col-lg-6 .nav ul li a:hover {
+  color: #1c7eda;
+}
+
+main #main {
+  background-image: url(../img/bigBG.jpg);
+  width: 100%;
+  height: 650px;
+}
+
+main #main .container .row .col-lg-6 .image img {
+  width: 60%;
+  margin-top: 33%;
+  margin-left: 15%;
+}
+
+main #main .container .row .col-lg-6 .title {
+  margin-top: 20%;
+}
+
+main #main .container .row .col-lg-6 .title h1 {
+  color: white;
+  font-size: 55px;
+}
+
+main #main .container .row .col-lg-6 .title p {
+  font-size: 25px;
+  color: white;
+}
+
+main #main .container .row .col-lg-6 .button button i {
+  font-size: 40px;
+}
+
+main #main .container .row .col-lg-6 .button button span {
+  margin: 20px;
+}
+
+#icons {
+  padding: 50px;
+}
+
+#icons .container .row .col-lg-4 .icon {
+  text-align: center;
+}
+
+#icons .container .row .col-lg-4 i {
+  background-color: #1c7eda;
+  border-radius: 50%;
+  width: 130px;
+  text-align: center;
+  height: 130px;
+  color: white;
+  font-size: 70px;
+  padding: 25px;
+}
+
+#icons .container .row .col-lg-4 i:hover {
+  background-color: white;
+  color: #1c7eda;
+  border: 3px solid #1c7eda;
+}
+
+#icons .container .row .col-lg-4 .title {
+  padding: 25px;
+}
+
+#icons .container .row .col-lg-4 .title p {
+  padding: 10px;
+}
+
+#slider {
+  background-color: #f7f0f0;
+  height: 300px;
+}
+
+#slider .container .slider1 {
+  padding: 70px;
+  text-align: center;
+}
+
+#slider .container .slider1 h1 {
+  color: #1c7eda;
+}
+
+#slider .container .slider1 p i {
+  font-size: 20px;
+}
+
+#slider .container .slider1 span {
+  font-size: 23px;
+  color: #1c7eda;
+}
+
+#contact {
+  padding: 50px;
+}
+
+#contact .container .title {
+  text-align: center;
+}
+
+#contact .container .title h1 {
+  padding: 10px;
+  font-size: 50px;
+  color: #1c7eda;
+}
+
+#contact .container .title p {
+  font-size: 25px;
+}
+
+#contact .container form .name-email label {
+  margin: 20px;
+}
+
+#contact .container form .name-email label b {
+  color: gray;
+}
+
+#contact .container form .name-email label input {
+  padding: 4px;
+  margin: 5px;
+}
+
+#contact .container form button {
+  margin: 10px;
+  width: 50%;
+}
+
+#footer {
+  margin-top: 50px;
+  background-color: gray;
+  height: 180px;
+  padding: 50px;
+}
+
+#footer .container .title {
+  color: white;
+  text-align: center;
+}
+
+#footer .container .title span {
+  font-size: 20px;
+}
+
+#footer .container .title span a {
+  text-decoration: none;
+}
+
+#footer .container .social-media ul {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#footer .container .social-media ul li {
+  list-style: none;
+}
+
+#footer .container .social-media ul li a {
+  margin: 10px;
+  text-decoration: none;
+}
+
+#footer .container .social-media ul li a i {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 7px;
+  background-color: #eeeaea;
+  color: #5f5d5d;
+}
+
+#footer .container .social-media ul li a i:hover {
+  background-color: white;
+}
+/*# sourceMappingURL=style.css.map */

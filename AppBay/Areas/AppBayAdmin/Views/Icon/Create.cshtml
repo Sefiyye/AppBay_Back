@@ -1,0 +1,23 @@
+﻿@model Icon
+<div class="btn btn-primary" style="height:350px; width:50%">
+    <form method="post" enctype="multipart/form-data">
+        <div>
+            <label class="mt-2">IconImage</label> <br />
+            <input class="form-control" asp-for="IconImage" /> <br />
+            <span class="text-danger" asp-validation-for="IconImage"></span>
+        </div>
+        <div>
+            <label class="mt-2">Title</label> <br />
+            <input class="form-control" asp-for="Title" /> <br />
+            <span class="text-danger" asp-validation-for="Title"></span>
+        </div>
+        <div>
+            <label class="mt-2">Subtitle</label> <br />
+            <input class="form-control" asp-for="Subtitle" /> <br />
+            <span class="text-danger" asp-validation-for="Subtitle"></span>
+        </div>
+    </form>
+    <div>
+        <button type="submit" class="btn btn-success">Create</button>
+    </div>
+</div>

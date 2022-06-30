@@ -1,7 +1,77 @@
-﻿
-@{
-    ViewData["Title"] = "Index";
-}
+﻿@model HomeVM
+<main>
+    <section id="main">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="image">
+                        <img src="~/assets/img/mobile.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="title">
+                        <h1><strong>Responsive App <br> Landing Page</strong></h1>
+                        <p>Bootstrap Based Responsive Landing Page <br> Template.</p>
+                    </div>
+                    <div class="button">
+                        <button type="button" class="btn btn-success">
+                            <i class="fa-solid fa-mobile-screen-button"></i>
+                            <span>Available on the </span>
+                            <h4>App Store</h4>
+                        </button>
+                    </div>
+                </div>
+            </div>
 
-<h1>Index</h1>
+        </div>
+    </section>
+    <section id="icons">
+        <div class="container">
+            <div class="row">
+                @foreach (var item in Model.Icon)
+                {
+                    <div class="col-lg-4 col-sm-12">
+                        <div class="icon">
+                            <i class="@item.IconImage"></i>
+                        </div>
+                        <div class="title">
+                            <h4>@item.Title</h4>
+                            <p>@item.Subtitle</p>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </section>
+    <section id="slider">
+        <div class="container">
+            <div class="slider1">
+                <h1><strong>What people say</strong></h1>
+                <p><i>"Crazy tellus urna, yo mamma check out this, eleifend you son of a bizzle."</i></p>
+                <span>Jennifer Aliquizzle</span>
+            </div>
 
+
+        </div>
+    </section>
+
+
+
+    <section id="contact">
+        <div class="container">
+            <div class="title">
+                <h1> <b>Contact us</b></h1>
+                <p>Want to chat? Send us a message. We'd love to hear from you!</p>
+                <form>
+                    <div class="name-email">
+                        <label for="name"> <b>Name</b> <input type="text" size="32%" class="form-control" size="30"></label>
+                        <label for="email"> <b>Email</b> <input type="text" size="32%" class="form-control" size="30"></label><br>
+                        <label for="message"> <b>Message</b> <textarea name="" id="" class="form-control" cols="80" rows="3"></textarea></label>
+                        <br>
+                        <button type="button" class="btn btn-primary">Send</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</main>

@@ -15,5 +15,6 @@ namespace AppBay.DAL
         }
         public DbSet<SocialMedia> SocialMedias { get; set; }
         public DbSet<Setting> Settings { get; set; }
+        public DbSet<Icon> Icons { get; set; }
     }
 }
